@@ -1,6 +1,8 @@
 ### Install oh-my-zsh, custom .zshrc, powerlevel10k theme, and other useful packages
 These are 2 bash scripts to fast install some packages to a host machine (particuallyr in TryHackMe.com machines).
 
+This repository is exactly the same with the other one https://github.com/Century300/tryhackme except this one also run "sudo apt upgrade -y" to install all available upgrades. This procecss takes a long time to complete in Ubuntu & Kali on TryHackMe.com, hence, I made a seperated repository.
+
 I used these scripts to install oh-my-zsh, my .zshrc configuration, powerlevel10k theme, and other useful packages to the Ubuntu & Kali (Linux) machines on TryHackMe.com, I have not tested the scripts with other machines yet.
 
 ### My .zshrc configuration
@@ -12,11 +14,11 @@ I used these scripts to install oh-my-zsh, my .zshrc configuration, powerlevel10
 - tilix terminal emulator, tree, neofetch, htop
 
 ## Instructions
-- git clone https://github.com/Century300/tryhackme.git ~/Downloads/tryhackme2 (require this path to install Meslo Fonts properly)
-- cd ~/Downloads/tryhackme
+- git clone https://github.com/Century300/tryhackme2.git ~/Downloads/tryhackme2 (require this path to install Meslo Fonts properly)
+- cd ~/Downloads/tryhackme2
 - sudo chmod +x install*
 - ./install_zsh_part1.sh
 - _(type Y when you see "Do you want to change your default shell to zsh?")_
 - ./install_zsh_part2.sh
 - source ~/.zshrc
-- sudo rm -rf ~/Downloads/tryhackme
+- sudo rm -rf ~/Downloads/tryhackme2
