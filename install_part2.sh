@@ -10,7 +10,7 @@ case "${unameOut}" in
   *)          MACHINE="UNKNOWN:${unameOut}"
 esac
 
-echo "Your machine is __"$MACHINE'''__, I used these scripts to install oh-my-zsh, ~/.zshrc configuration, powerlevel10k theme, and other useful packages to the Ubuntu & Kali (Linux) machines on TryHackMe.com, I have not tested the scripts with other machines yet.  You might want to run "sudo apt upgrade -y" after running this 2nd bash script, but it might take a long time to upgrade all packages.'''
+echo "Your machine is __"$MACHINE'''__, I used these scripts to install oh-my-zsh, ~/.zshrc configuration, powerlevel10k theme, and other useful packages to the Ubuntu & Kali (Linux) machines on TryHackMe.com, I have not tested the scripts with other machines yet.'''
 
 # Assumes default ZSH installation
 ZSH_CUSTOM="$HOME/.oh-my-zsh/custom"
