@@ -24,7 +24,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 chmod 700 ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 # Debian dependencies to use the pluggins later
-sudo apt install -y zsh-syntax-highlighting autojump
+sudo apt install -y autojump
 
 # Clone the powerlevel10k repository to oh-my-zsh directory
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
