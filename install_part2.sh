@@ -54,12 +54,14 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 #Plugins
 plugins=(
-    #plugins in $HOME/.oh-my-zsh/plugins/
+    #plugins in $HOME/.oh-my-zsh/plugins/ that can run before zsh-syntax-highlighting
     git sudo web-search dirhistory history jsontools colored-man-pages command-not-found autojump
     #other plugins in $HOME/.oh-my-zsh/custom/plugins/
     zsh-autosuggestions k zsh-syntax-highlighting
+    #plugins in $HOME/.oh-my-zsh/plugins/ that can only run after zsh-syntax-highlighting
+    history-substring-search
     )
-
+    
 source $ZSH/oh-my-zsh.sh
 
 # VTE Configuration for Tilix terminal https://gnunn1.github.io/tilix-web/manual/vteconfig/
