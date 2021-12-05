@@ -7,7 +7,7 @@ I used these scripts to install oh-my-zsh, my .zshrc configuration, powerlevel10
 
 ### My .zshrc configuration
 - Theme: powerlevel10k/powerlevel10k (The scripts automatically installed the powerlevel10k official fonts [MesloLGS](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k), but you would need to manually change the font to MesloLGS Regular in your terminal profile).
-- Plugins used from $HOME/.oh-my-zsh/plugins/: git sudo web-search dirhistory history jsontools colored-man-pages command-not-found autojump
+- Plugins used from $HOME/.oh-my-zsh/plugins/: git sudo web-search dirhistory history jsontools colored-man-pages command-not-found autojump history-substring-search
 - Added custom plugins in $HOME/.oh-my-zsh/custom/plugins/: zsh-autosuggestions k zsh-syntax-highlighting
 
 ### Other packages
