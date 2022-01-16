@@ -17,6 +17,7 @@ I used these scripts to install oh-my-zsh, my .zshrc configuration, powerlevel10
 - You need to clone to ~/Downloads/tryhackme2 to install Meslo Fonts properly
 ```bash
 git clone https://github.com/Century300/tryhackme2.git ~/Downloads/tryhackme2 && cd ~/Downloads/tryhackme2 && sudo chmod +x install*
+```
 - type Y when you see "Do you want to change your default shell to zsh?" when install part 1
 ```bash
 ./install_zsh_part1.sh
